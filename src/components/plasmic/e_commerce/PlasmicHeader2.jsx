@@ -107,7 +107,7 @@ function PlasmicHeader2__RenderFunc(props) {
             )}
             href={`/store`}
           >
-            {"Store"}
+            {"Home"}
           </a>
           <a
             className={classNames(
@@ -118,7 +118,7 @@ function PlasmicHeader2__RenderFunc(props) {
             )}
             href={`/about`}
           >
-            {"About"}
+            {"Gestione Ordini"}
           </a>
           <a
             className={classNames(
@@ -127,9 +127,11 @@ function PlasmicHeader2__RenderFunc(props) {
               projectcss.__wab_text,
               sty.link___5Ssw4
             )}
-            href={`/faq`}
+            href={`/store`}
           >
-            {hasVariant(globalVariants, "screen", "mobile") ? "Faq" : "Faq"}
+            {hasVariant(globalVariants, "screen", "mobile")
+              ? "Faq"
+              : "Catalogo"}
           </a>
         </p.Stack>
       ) : null}

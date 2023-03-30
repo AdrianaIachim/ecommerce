@@ -140,7 +140,6 @@ function PlasmicFooter__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.link__tce8X
                 )}
-                href={`/faq`}
               >
                 {"Catalogo"}
               </a>

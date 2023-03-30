@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -32,7 +32,8 @@
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
@@ -212,19 +213,6 @@
           "componentType": "component"
         },
         {
-          "id": "g-otZs1OnDsHve",
-          "name": "Store",
-          "type": "managed",
-          "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
-          "renderModuleFilePath": "plasmic/e_commerce/PlasmicStore.jsx",
-          "importSpec": {
-            "modulePath": "Store.jsx"
-          },
-          "cssFilePath": "plasmic/e_commerce/PlasmicStore.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "ymsmsqowiD_hX8",
           "name": "Header2",
           "type": "managed",
@@ -236,32 +224,6 @@
           "cssFilePath": "plasmic/e_commerce/PlasmicHeader2.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "ZB7pVvkcz8g96i",
-          "name": "Faq",
-          "type": "managed",
-          "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
-          "renderModuleFilePath": "plasmic/e_commerce/PlasmicFaq.jsx",
-          "importSpec": {
-            "modulePath": "Faq.jsx"
-          },
-          "cssFilePath": "plasmic/e_commerce/PlasmicFaq.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "SkWOoe9ASwpis-",
-          "name": "AboutUs",
-          "type": "managed",
-          "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
-          "renderModuleFilePath": "plasmic/e_commerce/PlasmicAboutUs.jsx",
-          "importSpec": {
-            "modulePath": "AboutUs.jsx"
-          },
-          "cssFilePath": "plasmic/e_commerce/PlasmicAboutUs.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
         },
         {
           "id": "1-w3pXaT6XGtNk",
@@ -301,6 +263,58 @@
           "cssFilePath": "plasmic/e_commerce/PlasmicHeader3.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "g-otZs1OnDsHve",
+          "name": "Catalogo",
+          "type": "managed",
+          "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
+          "renderModuleFilePath": "plasmic/e_commerce/PlasmicCatalogo.jsx",
+          "importSpec": {
+            "modulePath": "Catalogo.jsx"
+          },
+          "cssFilePath": "plasmic/e_commerce/PlasmicCatalogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "SkWOoe9ASwpis-",
+          "name": "GestioneOrdini",
+          "type": "managed",
+          "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
+          "renderModuleFilePath": "plasmic/e_commerce/PlasmicGestioneOrdini.jsx",
+          "importSpec": {
+            "modulePath": "GestioneOrdini.jsx"
+          },
+          "cssFilePath": "plasmic/e_commerce/PlasmicGestioneOrdini.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "WajwCXx2NK",
+          "name": "Profil",
+          "type": "managed",
+          "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
+          "renderModuleFilePath": "plasmic/e_commerce/PlasmicProfil.jsx",
+          "importSpec": {
+            "modulePath": "Profil.jsx"
+          },
+          "cssFilePath": "plasmic/e_commerce/PlasmicProfil.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "G6LUa2CLhG",
+          "name": "Profilo",
+          "type": "managed",
+          "projectId": "2GyyV1uN4xbnqKtJ7pjrQU",
+          "renderModuleFilePath": "plasmic/e_commerce/PlasmicProfilo.jsx",
+          "importSpec": {
+            "modulePath": "Profilo.jsx"
+          },
+          "cssFilePath": "plasmic/e_commerce/PlasmicProfilo.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -463,6 +477,41 @@
           "id": "WbN2i0RCJ",
           "name": "PersonCirclesvgIcon",
           "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon__PersonCirclesvg.jsx"
+        },
+        {
+          "id": "ItULJAXsu",
+          "name": "_14655891761535698998SvgIcon",
+          "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon___14655891761535698998Svg.jsx"
+        },
+        {
+          "id": "vdCZqKfTXk",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon__Icon8.jsx"
+        },
+        {
+          "id": "yWDnArVqY-",
+          "name": "_12454851961582823590SvgIcon",
+          "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon___12454851961582823590Svg.jsx"
+        },
+        {
+          "id": "c8OGDh7S0m",
+          "name": "_13616027201551939471SvgIcon",
+          "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon___13616027201551939471Svg.jsx"
+        },
+        {
+          "id": "xRTcnxnj_F",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon__Icon6.jsx"
+        },
+        {
+          "id": "03ubyRV0Gc",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon__Icon7.jsx"
+        },
+        {
+          "id": "hsR3GxY-xL",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/e_commerce/icons/PlasmicIcon__Icon28.jsx"
         }
       ],
       "images": [
@@ -795,6 +844,21 @@
           "id": "Vm8d_xQ6u",
           "name": "acqua.png",
           "filePath": "plasmic/e_commerce/images/acquapng.png"
+        },
+        {
+          "id": "vTxSXlMAWua",
+          "name": "image 2",
+          "filePath": "plasmic/e_commerce/images/image2.png"
+        },
+        {
+          "id": "imfGzJ8R3D2",
+          "name": "image 3",
+          "filePath": "plasmic/e_commerce/images/image3.jpg"
+        },
+        {
+          "id": "MvDs8lUPt",
+          "name": "photo-1438761681033-6461ffad8d80.jpg",
+          "filePath": "plasmic/e_commerce/images/photo14387616810336461Ffad8D80Jpg.jpg"
         }
       ],
       "indirect": false,

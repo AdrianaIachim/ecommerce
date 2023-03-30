@@ -153,6 +153,7 @@
   font-size: 20px;
   font-weight: 600;
   position: relative;
+  padding-left: 0px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .link__xtOpW {

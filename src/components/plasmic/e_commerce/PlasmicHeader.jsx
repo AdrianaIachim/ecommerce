@@ -148,7 +148,7 @@ function PlasmicHeader__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.link__w06Bp
               )}
-              href={`/store`}
+              href={`/`}
             >
               {"Home"}
             </a>
@@ -170,7 +170,7 @@ function PlasmicHeader__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.link__oxwem
               )}
-              href={`/faq`}
+              href={`/store`}
             >
               {"Catalogo"}
             </a>
